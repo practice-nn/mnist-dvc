@@ -3,3 +3,4 @@
 /norm_params.json
 /processed_train_data.npy
 /processed_test_data.npy
+/model.pkl
