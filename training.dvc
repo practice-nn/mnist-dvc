@@ -12,6 +12,8 @@ outs:
   path: data/model.pkl
 - cache: false
   md5: 6bdd08689365b10def02e66626036053
-  metric: true
+  metric:
+    type: json
+    xpath: training_time
   path: metrics/train_metric.json
 wdir: .

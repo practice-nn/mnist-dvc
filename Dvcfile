@@ -10,6 +10,8 @@ md5: ce219d80b017bdf324ec0f977f67f4f2
 outs:
 - cache: false
   md5: 42e05a4d1c5f16b21c304c269178b5a8
-  metric: true
+  metric:
+    type: json
+    xpath: accuracy
   path: metrics/eval.json
 wdir: .
