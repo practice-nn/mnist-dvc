@@ -1,0 +1,10 @@
+deps:
+- etag: '"529e8334-1171323"'
+  path: https://pjreddie.com/media/files/mnist_test.csv
+md5: 01d6c559d10b89b186a4fed4dde14840
+outs:
+- cache: true
+  md5: c807df8d6d804ab2647fc15c3d40f543
+  metric: false
+  path: data/test_data.csv
+wdir: .
